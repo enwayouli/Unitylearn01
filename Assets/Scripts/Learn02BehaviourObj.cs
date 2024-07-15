@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 
-public class BehaviourObj : MonoBehaviour
+public class Learn02BehaviourObj : MonoBehaviour
 {
     private void OnEnable()
     {

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2921030028598296310}
   - component: {fileID: 4664342856194443934}
   m_Layer: 0
-  m_Name: Learn01_UnityAttribute
+  m_Name: "Learn01_Unity\u7279\u6027"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

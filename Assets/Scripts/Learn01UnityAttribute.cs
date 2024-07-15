@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UnityAttribute : MonoBehaviour
+public class Learn01UnityAttribute : MonoBehaviour
 {
     
     [Header("Header分组")]                           //Header             分组

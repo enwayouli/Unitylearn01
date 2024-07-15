@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8502036468696740527}
   - component: {fileID: 5966247074082971531}
   m_Layer: 0
-  m_Name: Learn02_BehaviourObj
+  m_Name: "Learn02_monoBehaviour\u57FA\u7840"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
