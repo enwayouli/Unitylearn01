@@ -5,28 +5,28 @@ using UnityEngine;
 public class UnityAttribute : MonoBehaviour
 {
     
-    [Header("Header·Ö×é")]                           //Header             ·Ö×é
+    [Header("Headeråˆ†ç»„")]                           //Header             åˆ†ç»„
     public int header1;
     public int header2;
 
-    [Space()]                                        //Space              ¼ä¸ô
-    [Tooltip("TooltipËµÃ÷ÄÚÈİ")]                     //Tooltip            ËµÃ÷ÄÚÈİ
-    public string tooltip = "Êó±êĞü¸¡²é¿´ËµÃ÷ÄÚÈİ";
+    [Space()]                                        //Space              é—´éš”
+    [Tooltip("Tooltipè¯´æ˜å†…å®¹")]                     //Tooltip            è¯´æ˜å†…å®¹
+    public string tooltip = "é¼ æ ‡æ‚¬æµ®æŸ¥çœ‹è¯´æ˜å†…å®¹";
 
-    [Range(0,1)]                                     //Range              ÏŞÖÆ·¶Î§
+    [Range(0,1)]                                     //Range              é™åˆ¶èŒƒå›´
     public float range;
 
-    [Multiline(3)]                                   //Multiline          ¶àĞĞ×Ö·û´®
+    [Multiline(3)]                                   //Multiline          å¤šè¡Œå­—ç¬¦ä¸²
     public string multiline;
 
-    [ContextMenuItem("ÖØÖÃ", "SetContextMenuItem")]  //ContextMenuItem    ÓÒ¼ü¹¦ÄÜ
-    public string contextMenuItem = "ÓÒ¼ü±äÁ¿Ãû";
+    [ContextMenuItem("é‡ç½®", "SetContextMenuItem")]  //ContextMenuItem    å³é”®åŠŸèƒ½
+    public string contextMenuItem = "å³é”®å˜é‡å";
     private void SetContextMenuItem() { contextMenuItem = ""; }
 
-    [TextArea(3, 4)]                                 //TextArea           ·¶Î§¶àĞĞ×Ö·û´®
+    [TextArea(3, 4)]                                 //TextArea           èŒƒå›´å¤šè¡Œå­—ç¬¦ä¸²
     public string textArea;
 
-    [ContextMenu("²âÊÔContextMenu")]                 //ContextMenu        Inspector½Å±¾¹¦ÄÜÍØÕ¹
+    [ContextMenu("æµ‹è¯•ContextMenu")]                 //ContextMenu        Inspectorè„šæœ¬åŠŸèƒ½æ‹“å±•
     private void ContextMenu()
     {
         Debug.Log("ContextMenu run complete");
